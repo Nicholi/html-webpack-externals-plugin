@@ -1,6 +1,6 @@
 {
   "name": "html-webpack-externals-plugin",
-  "version": "3.8.0",
+  "version": "3.8.0-beta.0",
   "description": "Webpack plugin that works alongside html-webpack-plugin to use pre-packaged vendor bundles.",
   "keywords": [
     "htmlwebpackplugin",
@@ -45,12 +45,13 @@
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.24.1",
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.1.1",
+    "popper.js": "^1.14.3",
     "create-github-release": "^1.4.1",
     "css-loader": "^0.28.9",
     "escape-string-regexp": "^1.0.5",
     "extract-text-webpack-plugin": "^3.0.2",
-    "html-webpack-plugin": "^2.0.0",
+    "html-webpack-plugin": "^3.0.0 || ^2.0.0",
     "husky": "^0.14.3",
     "jquery": "^3.3.1",
     "lint-staged": "^6.1.1",
@@ -60,7 +61,7 @@
     "webpack": "^3.11.0"
   },
   "peerDependencies": {
-    "html-webpack-plugin": "^2.0.0"
+    "html-webpack-plugin": "^3.0.0 || ^2.0.0"
   },
   "dependencies": {
     "ajv": "^6.1.1",
